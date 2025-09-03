@@ -1,0 +1,187 @@
+.campaigns-table-wrapper {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.campaigns-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 200px;
+  font-size: 14px;
+}
+
+.status-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.status-pill {
+  background-color: #f9fafb;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.badge {
+  background: #e11d48;
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.view-export-controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.view-btn,
+.ghost-btn {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.view-btn.active {
+  background-color: #eef2ff;
+  border-color: #32706b;
+  color: #3bd1ec;
+}
+
+.campaigns-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.campaigns-table thead th {
+  text-align: left;
+  padding: 12px;
+  background-color: #f3f4f6;
+  font-size: 13px;
+  color: #555;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.campaigns-table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 14px;
+}
+
+.pagination-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  font-size: 13px;
+  color: #444;
+}
+
+.page-arrows {
+  padding: 0 8px;
+  cursor: pointer;
+}
+/* Search input with icon inside */
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  color: #888;
+}
+
+.search-input {
+  padding: 8px 12px 8px 32px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 200px;
+}
+
+/* Status filter pill buttons */
+.status-filters {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.status-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+}
+
+.pill-badge {
+  background-color: #489ccc; /* consistent pink background */
+  color: white;
+  border-radius: 999px;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+.selected-row {
+  background-color: #e6f2ff; /* light blue */
+}
+.view-toggle-group {
+  display: inline-flex;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.toggle-btn {
+  padding: 6px 12px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  border-right: 1px solid #ccc;
+}
+
+.toggle-btn:last-child {
+  border-right: none;
+}
+
+.toggle-btn.active {
+  background-color: #0052cc;
+  color: #fff;
+}

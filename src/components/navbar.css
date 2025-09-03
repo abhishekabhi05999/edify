@@ -1,0 +1,100 @@
+.navbar {
+  width: 100%;
+  background-color: #abeee3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Edify Branding */
+.navbar-left .brand-text {
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #8b5cf6, #3b82f6, #06b6d4); 
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* This wraps both links and icons */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px; /* 👈 spacing between tabs and icons */
+  flex: 1;
+  margin-left: 40px; /* 👈 adds space between Edify and links */
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+  display: flex;
+  gap: 24px; /* 👈 gap between each tab */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Icon section */
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* 👈 more spacing between each icon */
+}
+
+.nav-icon {
+  color: #555;
+  cursor: pointer;
+}
+
+/* Common icon style */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Light gray background circle */
+.gray-bg {
+  background-color: #f0f0f0;
+}
+
+/* Gradient background for Ask AI */
+.ask-ai {
+  background: linear-gradient(to bottom right, #8b5cf6, #3b82f6, #06b6d4);
+  color: white;
+}
+
+/* Notification bell badge */
+.bell {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #ef4444;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+
+/* Profile icon */
+.profile img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
